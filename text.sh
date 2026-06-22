@@ -110,6 +110,7 @@
 ЧАСТЬ 4. УСТАНОВКА SAMBA (только на сервере)
 ====================================================================
 
+  apt install cifs-utils -y
   apt install samba -y
   systemctl status smbd
 
